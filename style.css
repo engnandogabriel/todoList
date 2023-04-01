@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.list {
+    display: none;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #2b879e;
+}
+
+.center {
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    max-width: 500px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.title h2 {
+    color: #616668;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.list-header {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.search-list {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.search-list input{
+    width: 80%;
+    height: 30px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.search-list button {
+    width: 10%;
+    border: none;
+    background-color: #8F4BE8;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+.search-list button:hover {
+    background-color: #7b2be3;
+    transition: 0.3s;
+}
+
+.search-list input:focus {
+    outline: none;
+    border: 2px solid #8F4BE8;
+    transition: 0.3s;
+}
+
+.add-list {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+.add-list input {
+    width: 80%;
+    height: 30px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.add-list input:focus{
+    outline: none;
+    border: 2px solid #8F4BE8;
+    transition: 0.3s;
+}
+
+.add-list button {
+    width: 10%;
+    border: none;
+    background-color: #8F4BE8;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+.add-list button:hover{
+    background-color: #7b2be3;
+    transition: 0.3s;
+}
+
+.linha {
+    content: "";
+    background-color: #7b2be3;
+    width: 3px;
+    border-radius: 10px;
+}
+
+.todo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+
+.list-content {
+    width: 80%;
+    height: 40px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+.todo button {
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.todo button:hover{
+    background-color: #98d9b6;
+    transition: 0.3s;
+}
+
+.done .list-content {
+    background-color: #8F4BE8;
+    text-decoration: line-through;
+    transition-timing-function: linear;
+    transition-timing-function: cubic-bezier(0, 0, 1, 1);
+    transition: 0.5s;
+    
+}
+
+.done button{
+    background-color: #8F4BE8;
+    transition-timing-function: linear;
+    transition-timing-function: cubic-bezier(0, 0, 1, 1);
+    transition: 0.5s;
+}
+
+.done button:hover{
+    background-color: #7b2be3;
+    transition-timing-function: linear;
+    transition-timing-function: cubic-bezier(0, 0, 1, 1);
+    transition: 0.5s;
+}
+
+.done i{
+    color: #CCC !important;
+    transition-timing-function: linear;
+    transition-timing-function: cubic-bezier(0, 0, 1, 1);
+    transition: 0.5s;
+}
+
+.edit-container {
+    display: none;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.edit-list-header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.edit-list-header h2 {
+    color: #616668;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.edit-task {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#edit-list {
+    width: 80%;
+    height: 30px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#edit-list:focus{
+    outline: none;
+    border: 2px solid #8F4BE8;
+    transition: 0.3s;
+}
+
+#button-edit {
+    width: 10%;
+    border: none;
+    background-color: #8F4BE8;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+#cancel-edit{
+    width: 10%;
+    border: none;
+    background-color: #8F4BE8;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+#cancel-edit:hover,
+#button-edit{
+    background-color: #7b2be3;
+    transition: 0.3s;
+}
+
+.hide {
+    display: block;
+}

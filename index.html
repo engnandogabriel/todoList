@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,900;1,100;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Lista de afazeres</title>
+</head>
+<body>
+    
+    <div class="container">
+       <div class="center">
+        <div class="title">
+            <h2>TodoList</h2>
+        </div>
+
+        <div class="list hide">
+            <div class="list-header">
+                <div class="add-list">
+                    <input type="text" name="task" id="task" placeholder="Adicionar uma nova tarefa">
+                    <button id="add-list"><i class="fa-solid fa-plus" style="color: #fff;"></i></button>
+                </div>
+                <div class="linha"></div>
+                <div class="search-list">
+                    <input type="text" name="search" id="search" placeholder="Pesquisar uma tarefa">
+                    <button><i class="fa-solid fa-magnifying-glass" style="color: #fff;"></i></button>
+                </div>
+            </div>
+        </div>
+            <div class="edit-container">
+                <div class="edit-list-header">
+                    <h2>Edite sua tarefa</h2>
+                </div>
+
+                <div class="edit-task">
+                    <input type="text" name="edit-list" id="edit-list">
+                    <button id="button-edit"><i class="fa-solid fa-check"></i></button>
+                    <button id="cancel-edit"><i class="fa-regular fa-xmark"></i></button>
+                </div>
+
+            </div>
+
+            <div class="container-list hide">
+                <!--
+                <div class="todo">
+                    <div class="list-content">
+                        <span>Comprar comida</span>
+                    </div>
+                    <button class="finished-list"><i class="fa-solid fa-check" style="color: #2b879e;"></i></button>
+                    <button class="edit-list"><i class="fa-solid fa-pen-to-square" style="color: #2b879e;"></i></button>
+                    <button class="remove-list"><i class="fa-regular fa-trash" style="color: #2b879e;"></i></button>
+                </div>
+                <div class="todo">
+                    <div class="list-content">
+                        <span>Estudar</span>
+                    </div>
+                    <button class="finished-list"><i class="fa-solid fa-check" style="color: #2b879e;"></i></button>
+                    <button class="edit-list"><i class="fa-solid fa-pen-to-square" style="color: #2b879e;"></i></button>
+                    <button class="remove-list"><i class="fa-regular fa-trash" style="color: #2b879e;"></i></button>
+                </div>
+                <div class="todo">
+                    <div class="list-content">
+                        <span>Comer</span>
+                    </div>
+                    <button class="finished-list"><i class="fa-solid fa-check" style="color: #2b879e;"></i></button>
+                    <button class="edit-list"><i class="fa-solid fa-pen-to-square" style="color: #2b879e;"></i></button>
+                    <button class="remove-list"><i class="fa-regular fa-trash" style="color: #2b879e;"></i></button>
+                </div>
+                <div class="todo">
+                    <div class="list-content">
+                        <span>Tomar café</span>
+                    </div>
+                    <button class="finished-list"><i class="fa-solid fa-check" style="color: #2b879e;"></i></button>
+                    <button class="edit-list"><i class="fa-solid fa-pen-to-square" style="color: #2b879e;"></i></button>
+                    <button class="remove-list"><i class="fa-regular fa-trash" style="color: #2b879e;"></i></button>
+                </div>
+                -->
+            </div>
+
+       </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
