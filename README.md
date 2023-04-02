@@ -9,8 +9,8 @@ Este projeto tem o intuito aprensetar um TodoList em uma aplicação front-end d
 
 A aplicação consiste em um organizador de lista de tarfefas básico, no qual o intuito é colocar em práticas as habilidades de desnvolvimento fronend ao lado do uso do localstorage do navegodor, uma vez que o projeto não apresenta banco de dados, mas pode conter as listas salvo no computador do usuário.
 
-## Layout do Jogo
-![Tela Principal](https://github.com/engnandogabriel/jogo-da-velha/blob/master/tela-inical.png)
+## Layout do Projeto
+![Tela Principal](https://github.com/engnandogabriel/todoList/blob/master/Captura%20de%20tela.png)
 
 
 # Tecnologias utilizadas
@@ -18,7 +18,7 @@ A aplicação consiste em um organizador de lista de tarfefas básico, no qual o
 - HTML / CSS / JavaScript
 
 # clonar repositório
-git clone https://github.com/engnandogabriel/jogo-da-velha
+git clone https://github.com/engnandogabriel/todoList
 
 # Autor
 
