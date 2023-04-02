@@ -3,7 +3,7 @@ Link para acessar o jogo: sem link no momento
 
 # Sobre o projeto
 
- https://engnandogabriel/todoList/
+[ https://engnandogabriel/todoList/](https://github.com/engnandogabriel/todoList)
 
 Este projeto tem o intuito aprensetar um TodoList em uma aplicação front-end desenvolvido pelo acadêmico de Engenharia de Computação Nando Gabriel.
 
